@@ -67,18 +67,18 @@ This Flask application includes the following features:
 
 The login page allows users to enter their credentials and log into the application. It verifies the user's information against the MySQL database and grants access if the certificates are valid.
 
-![Login Page](images/login_page.png)
+![Login Page](images/login.png)
 
 ### Profile
 
 After logging in, users can access their profile page, which displays their personal information like email, no of followers, no of tweets. The tweets they posted are  retrieved from the MySQL database. Users can view and update their profile details, and view their followers.
 
-![Profile Page](images/profile_page.png)
+![Profile Page](images/profile.png)
 
 ### Explore
 
 The explore functionality provides users with the ability to view the tweets posted by you and the people you follow. It fetches relevant data from the MySQL database and presents it to the user in an organized manner.
 
-![Explore Page](images/explore_page.png)
+![Explore Page](images/explore.png)
 
 Please feel free to customize and extend the application based on what you need. Happy coding!
