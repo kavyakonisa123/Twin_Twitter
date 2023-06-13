@@ -2,7 +2,7 @@
 
 ## Flask Application with MySQL Database Connection
 
-This Flask application provides a simple web interface that connects to a MySQL database and includes features such as a login page, user profile, and explore functionality. The application is built using Python and the Flask framework.
+This Flask application provides a simple web interface that connects to a MySQL database and includes features such as a login page, user profile, and explore functionality. The application is built using Python and the Flask framework.The user can post a tweet, comment on his follower's post, like or unlike the tweet, and retweet the tweet . one can view or delete the tweets etc..
 
 ## Requirements
 
@@ -80,5 +80,7 @@ After logging in, users can access their profile page, which displays their pers
 The explore functionality provides users with the ability to view the tweets posted by you and the people you follow. It fetches relevant data from the MySQL database and presents it to the user in an organized manner.
 
 ![Explore Page](images/explore.png)
+
+![Comment Modal](images/comments.png)
 
 Please feel free to customize and extend the application based on what you need. Happy coding!
