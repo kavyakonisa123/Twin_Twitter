@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+
+</head>
+
+<body class="backgroundimg">
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="form-container">
+          <h1>LOGIN</h1>
+          <h4>Placeholders shown in the email and password can be used to login</h4>
+          <h5>Note: Password shown has space in the beginning</h5>
+          <form id="login-form" action="{{ url_for('login') }}" method="post">
+            <label for="username">Email</label>
+            <input type="text" name="username" placeholder="KAVYAKEMPU@GMAIL.COM" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder=" PASSWORD1234" required>
+            <input type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
