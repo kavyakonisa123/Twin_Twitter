@@ -15,14 +15,9 @@ Make sure you have the following installed on your system before running the app
 To easily install the necessary packages, you can create a `requirements.txt` file with the following content:
 
 ```
-pip install Flask
-
-pip install Flask mysql-connector-python 
-
-pip install Flask flask-login
-
-![image](https://github.com/kavyakonisa123/Twin_Twitter/assets/110701700/d556ab38-0713-45cc-9835-2951316b3505)
-
+Flask
+Flask mysql-connector-python 
+Flask flask-login
 ```
 
 You can install these requirements by running the following command:
@@ -33,7 +28,7 @@ pip install -r requirements.txt
 
 ## Database Configuration
 
-Before running the application, you need to configure the MySQL database connection in app.py. Follow the steps below:
+Before running the application, you need to configure the MySQL database connection in `app.py`. Follow the steps below:
 
 ```shell
 import mysql.connector
